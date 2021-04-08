@@ -1,0 +1,40 @@
+2:37:08 μμ  [main] 	Initializing Control Panel
+2:37:08 μμ  [main] 	Windows Version:  Home  64-bit
+2:37:08 μμ  [main] 	XAMPP Version: 7.3.11
+2:37:08 μμ  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+2:37:08 μμ  [main] 	You are not running with administrator rights! This will work for
+2:37:08 μμ  [main] 	most application stuff but whenever you do something with services
+2:37:08 μμ  [main] 	there will be a security dialogue or things will break! So think 
+2:37:08 μμ  [main] 	about running this application with administrator rights!
+2:37:08 μμ  [main] 	XAMPP Installation Directory: "c:\users\panap\downloads\moodlewindowsinstaller-latest-38\server\"
+2:37:08 μμ  [main] 	Checking for prerequisites
+2:37:10 μμ  [main] 	All prerequisites found
+2:37:10 μμ  [main] 	Initializing Modules
+2:37:10 μμ  [Apache] 	XAMPP Apache is already running on port 80
+2:37:10 μμ  [Apache] 	XAMPP Apache is already running on port 443
+2:37:10 μμ  [mysql] 	XAMPP MySQL is already running on port 3306
+2:37:10 μμ  [main] 	The FileZilla module is disabled
+2:37:10 μμ  [main] 	The Mercury module is disabled
+2:37:10 μμ  [Tomcat] 	Problem detected: Tomcat Not Found!
+2:37:10 μμ  [Tomcat] 	Disabling Tomcat buttons
+2:37:10 μμ  [Tomcat] 	Run this program from your XAMPP root directory!
+2:37:10 μμ  [Tomcat] 	Problem detected: Required Tool catalina_start.bat Not Found!
+2:37:10 μμ  [Tomcat] 	Problem detected: Required Tool catalina_stop.bat Not Found!
+2:37:10 μμ  [Tomcat] 	Problem detected: Required Tool catalina_service.bat Not Found!
+2:37:10 μμ  [main] 	Starting Check-Timer
+2:37:10 μμ  [main] 	Control Panel Ready
+2:41:04 μμ  [mysql] 	Attempting to stop MySQL app...
+2:41:04 μμ  [mysql] 	Status change detected: stopped
+2:41:12 μμ  [mysql] 	Attempting to start MySQL app...
+2:41:12 μμ  [mysql] 	Status change detected: running
+11:31:17 μμ  [Apache] 	Status change detected: stopped
+11:31:17 μμ  [Apache] 	Error: Apache shutdown unexpectedly.
+11:31:17 μμ  [Apache] 	This may be due to a blocked port, missing dependencies, 
+11:31:17 μμ  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+11:31:17 μμ  [Apache] 	Press the Logs button to view error logs and check
+11:31:17 μμ  [Apache] 	the Windows Event Viewer for more clues
+11:31:17 μμ  [Apache] 	If you need more help, copy and post this
+11:31:17 μμ  [Apache] 	entire log window on the forums
+11:36:48 μμ  [main] 	Deinitializing Modules
+11:36:48 μμ  [main] 	Deinitializing Control Panel
+
