@@ -1,0 +1,189 @@
+[Wed Dec 09 14:05:00.740721 2020] [ssl:warn] [pid 11652:tid 516] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 09 14:05:00.799773 2020] [ssl:warn] [pid 11652:tid 516] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Wed Dec 09 14:05:01.523012 2020] [mpm_winnt:notice] [pid 11652:tid 516] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Wed Dec 09 14:05:01.523012 2020] [mpm_winnt:notice] [pid 11652:tid 516] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Wed Dec 09 14:05:01.523012 2020] [core:notice] [pid 11652:tid 516] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/panap/Downloads/MoodleWindowsInstaller-latest-38/server/apache -f conf\\httpd.conf'
+[Wed Dec 09 14:05:01.532083 2020] [mpm_winnt:notice] [pid 11652:tid 516] AH00418: Parent: Created child process 15096
+Apache server shutdown initiated...
+sl:warn] [pid 15096:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 09 14:05:02.344353 2020] [ssl:warn] [pid 15096:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Wed Dec 09 14:05:02.384302 2020] [mpm_winnt:notice] [pid 15096:tid 556] AH00354: Child: Starting 150 worker threads.
+[Wed Dec 09 14:06:01.916128 2020] [php7:warn] [pid 15096:tid 1860] [client ::1:50221] PHP Warning:  mysqli::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\\Users\\panap\\Downloads\\MoodleWindowsInstaller-latest-38\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
+[Wed Dec 09 14:06:01.916128 2020] [php7:warn] [pid 15096:tid 1860] [client ::1:50221] PHP Warning:  mysqli::__construct(): (HY000/2054): The server requested authentication method unknown to the client in C:\\Users\\panap\\Downloads\\MoodleWindowsInstaller-latest-38\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
+[Wed Dec 09 14:19:13.966071 2020] [mpm_winnt:notice] [pid 11652:tid 516] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Dec 09 14:19:15.968853 2020] [mpm_winnt:notice] [pid 15096:tid 556] AH00364: Child: All worker threads have exited.
+[Wed Dec 09 14:19:15.992886 2020] [mpm_winnt:notice] [pid 11652:tid 516] AH00430: Parent: Child process 15096 exited successfully.
+[Wed Dec 09 14:20:00.079689 2020] [ssl:warn] [pid 9068:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 09 14:20:00.117433 2020] [ssl:warn] [pid 9068:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Wed Dec 09 14:20:00.145474 2020] [mpm_winnt:notice] [pid 9068:tid 628] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Wed Dec 09 14:20:00.145474 2020] [mpm_winnt:notice] [pid 9068:tid 628] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Wed Dec 09 14:20:00.145474 2020] [core:notice] [pid 9068:tid 628] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/panap/Downloads/MoodleWindowsInstaller-latest-38/server/apache -f conf\\httpd.conf'
+[Wed Dec 09 14:20:00.152688 2020] [mpm_winnt:notice] [pid 9068:tid 628] AH00418: Parent: Created child process 10660
+Apache server shutdown initiated...
+sl:warn] [pid 10660:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 09 14:20:00.813635 2020] [ssl:warn] [pid 10660:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Wed Dec 09 14:20:00.861854 2020] [mpm_winnt:notice] [pid 10660:tid 644] AH00354: Child: Starting 150 worker threads.
+[Wed Dec 09 14:20:35.656193 2020] [php7:warn] [pid 10660:tid 1848] [client 127.0.0.1:55506] PHP Warning:  mysqli::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\\Users\\panap\\Downloads\\MoodleWindowsInstaller-latest-38\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
+[Wed Dec 09 14:20:35.656193 2020] [php7:warn] [pid 10660:tid 1848] [client 127.0.0.1:55506] PHP Warning:  mysqli::__construct(): (HY000/2054): The server requested authentication method unknown to the client in C:\\Users\\panap\\Downloads\\MoodleWindowsInstaller-latest-38\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
+[Wed Dec 09 14:20:43.723142 2020] [php7:warn] [pid 10660:tid 1864] [client ::1:55525] PHP Warning:  mysqli::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\\Users\\panap\\Downloads\\MoodleWindowsInstaller-latest-38\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
+[Wed Dec 09 14:20:43.724051 2020] [php7:warn] [pid 10660:tid 1864] [client ::1:55525] PHP Warning:  mysqli::__construct(): (HY000/2054): The server requested authentication method unknown to the client in C:\\Users\\panap\\Downloads\\MoodleWindowsInstaller-latest-38\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
+[Wed Dec 09 14:21:02.041134 2020] [php7:warn] [pid 10660:tid 1848] [client ::1:55532] PHP Warning:  mysqli::__construct(): (HY000/2002): \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd, \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd.\r\n in C:\\Users\\panap\\Downloads\\MoodleWindowsInstaller-latest-38\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
+[Wed Dec 09 14:21:03.628734 2020] [php7:warn] [pid 10660:tid 1864] [client ::1:55540] PHP Warning:  mysqli::__construct(): (HY000/2002): \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd, \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd.\r\n in C:\\Users\\panap\\Downloads\\MoodleWindowsInstaller-latest-38\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
+[Wed Dec 09 14:22:03.480818 2020] [php7:warn] [pid 10660:tid 1864] [client ::1:55570] PHP Warning:  mysqli::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\\Users\\panap\\Downloads\\MoodleWindowsInstaller-latest-38\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
+[Wed Dec 09 14:22:03.481815 2020] [php7:warn] [pid 10660:tid 1864] [client ::1:55570] PHP Warning:  mysqli::__construct(): (HY000/2054): The server requested authentication method unknown to the client in C:\\Users\\panap\\Downloads\\MoodleWindowsInstaller-latest-38\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
+[Wed Dec 09 14:22:49.734859 2020] [php7:warn] [pid 10660:tid 1864] [client ::1:55576] PHP Warning:  mysqli::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\\Users\\panap\\Downloads\\MoodleWindowsInstaller-latest-38\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
+[Wed Dec 09 14:22:49.734859 2020] [php7:warn] [pid 10660:tid 1864] [client ::1:55576] PHP Warning:  mysqli::__construct(): (HY000/2054): The server requested authentication method unknown to the client in C:\\Users\\panap\\Downloads\\MoodleWindowsInstaller-latest-38\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
+[Wed Dec 09 14:23:56.717309 2020] [php7:warn] [pid 10660:tid 1864] [client ::1:55614] PHP Warning:  mysqli::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\\Users\\panap\\Downloads\\MoodleWindowsInstaller-latest-38\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
+[Wed Dec 09 14:23:56.717309 2020] [php7:warn] [pid 10660:tid 1864] [client ::1:55614] PHP Warning:  mysqli::__construct(): (HY000/2054): The server requested authentication method unknown to the client in C:\\Users\\panap\\Downloads\\MoodleWindowsInstaller-latest-38\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
+[Wed Dec 09 14:25:13.082326 2020] [php7:warn] [pid 10660:tid 1848] [client ::1:55637] PHP Warning:  mysqli::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\\Users\\panap\\Downloads\\MoodleWindowsInstaller-latest-38\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
+[Wed Dec 09 14:25:13.082326 2020] [php7:warn] [pid 10660:tid 1848] [client ::1:55637] PHP Warning:  mysqli::__construct(): (HY000/2054): The server requested authentication method unknown to the client in C:\\Users\\panap\\Downloads\\MoodleWindowsInstaller-latest-38\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
+[Wed Dec 09 14:25:34.536774 2020] [php7:warn] [pid 10660:tid 1864] [client ::1:55638] PHP Warning:  mysqli::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\\Users\\panap\\Downloads\\MoodleWindowsInstaller-latest-38\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
+[Wed Dec 09 14:25:34.536774 2020] [php7:warn] [pid 10660:tid 1864] [client ::1:55638] PHP Warning:  mysqli::__construct(): (HY000/2054): The server requested authentication method unknown to the client in C:\\Users\\panap\\Downloads\\MoodleWindowsInstaller-latest-38\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
+[Wed Dec 09 14:25:40.091937 2020] [php7:warn] [pid 10660:tid 1864] [client ::1:55638] PHP Warning:  mysqli::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\\Users\\panap\\Downloads\\MoodleWindowsInstaller-latest-38\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
+[Wed Dec 09 14:25:40.091937 2020] [php7:warn] [pid 10660:tid 1864] [client ::1:55638] PHP Warning:  mysqli::__construct(): (HY000/2054): The server requested authentication method unknown to the client in C:\\Users\\panap\\Downloads\\MoodleWindowsInstaller-latest-38\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
+[Wed Dec 09 14:26:44.688837 2020] [php7:warn] [pid 10660:tid 1848] [client ::1:55657] PHP Warning:  mysqli::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\\Users\\panap\\Downloads\\MoodleWindowsInstaller-latest-38\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
+[Wed Dec 09 14:26:44.689835 2020] [php7:warn] [pid 10660:tid 1848] [client ::1:55657] PHP Warning:  mysqli::__construct(): (HY000/2054): The server requested authentication method unknown to the client in C:\\Users\\panap\\Downloads\\MoodleWindowsInstaller-latest-38\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
+[Wed Dec 09 14:27:01.726572 2020] [php7:warn] [pid 10660:tid 1864] [client ::1:55659] PHP Warning:  mysqli::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\\Users\\panap\\Downloads\\MoodleWindowsInstaller-latest-38\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
+[Wed Dec 09 14:27:01.726820 2020] [php7:warn] [pid 10660:tid 1864] [client ::1:55659] PHP Warning:  mysqli::__construct(): (HY000/2054): The server requested authentication method unknown to the client in C:\\Users\\panap\\Downloads\\MoodleWindowsInstaller-latest-38\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
+[Wed Dec 09 14:36:39.931578 2020] [mpm_winnt:notice] [pid 9068:tid 628] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Dec 09 14:36:41.932785 2020] [mpm_winnt:notice] [pid 10660:tid 644] AH00364: Child: All worker threads have exited.
+[Wed Dec 09 14:36:41.959725 2020] [mpm_winnt:notice] [pid 9068:tid 628] AH00430: Parent: Child process 10660 exited successfully.
+[Wed Dec 09 14:36:48.904997 2020] [ssl:warn] [pid 20680:tid 532] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 09 14:36:48.957404 2020] [ssl:warn] [pid 20680:tid 532] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Wed Dec 09 14:36:49.068682 2020] [mpm_winnt:notice] [pid 20680:tid 532] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Wed Dec 09 14:36:49.068682 2020] [mpm_winnt:notice] [pid 20680:tid 532] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Wed Dec 09 14:36:49.068682 2020] [core:notice] [pid 20680:tid 532] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/panap/Downloads/MoodleWindowsInstaller-latest-38/server/apache -f conf\\httpd.conf'
+[Wed Dec 09 14:36:49.106581 2020] [mpm_winnt:notice] [pid 20680:tid 532] AH00418: Parent: Created child process 5276
+Apache server shutdown initiated...
+sl:warn] [pid 5276:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 09 14:36:50.117291 2020] [ssl:warn] [pid 5276:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Wed Dec 09 14:36:50.161302 2020] [mpm_winnt:notice] [pid 5276:tid 544] AH00354: Child: Starting 150 worker threads.
+[Wed Dec 09 14:37:50.234224 2020] [php7:warn] [pid 5276:tid 1872] [client ::1:55891] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\\Users\\panap\\Downloads\\MoodleWindowsInstaller-latest-38\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
+[Wed Dec 09 17:45:01.388420 2020] [mpm_winnt:notice] [pid 20680:tid 532] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Dec 09 17:45:13.646180 2020] [ssl:warn] [pid 7664:tid 520] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 09 17:45:13.720978 2020] [core:warn] [pid 7664:tid 520] AH00098: pid file C:/Users/panap/Downloads/MoodleWindowsInstaller-latest-38/server/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Dec 09 17:45:13.723970 2020] [ssl:warn] [pid 7664:tid 520] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Wed Dec 09 17:45:13.780817 2020] [mpm_winnt:notice] [pid 7664:tid 520] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Wed Dec 09 17:45:13.780817 2020] [mpm_winnt:notice] [pid 7664:tid 520] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Wed Dec 09 17:45:13.780817 2020] [core:notice] [pid 7664:tid 520] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/panap/Downloads/MoodleWindowsInstaller-latest-38/server/apache -f conf\\httpd.conf'
+[Wed Dec 09 17:45:13.793783 2020] [mpm_winnt:notice] [pid 7664:tid 520] AH00418: Parent: Created child process 20592
+Apache server shutdown initiated...
+sl:warn] [pid 20592:tid 668] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 09 17:45:14.978819 2020] [ssl:warn] [pid 20592:tid 668] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Wed Dec 09 17:45:15.031677 2020] [mpm_winnt:notice] [pid 20592:tid 668] AH00354: Child: Starting 150 worker threads.
+[Wed Dec 09 17:45:19.071866 2020] [mpm_winnt:notice] [pid 5276:tid 544] AH00364: Child: All worker threads have exited.
+[Thu Dec 10 23:31:12.381682 2020] [mpm_winnt:notice] [pid 7664:tid 520] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Dec 10 23:31:16.807963 2020] [mpm_winnt:notice] [pid 20592:tid 668] AH00364: Child: All worker threads have exited.
+[Thu Dec 10 23:31:16.973521 2020] [mpm_winnt:notice] [pid 7664:tid 520] AH00430: Parent: Child process 20592 exited successfully.
+[Fri Dec 11 18:16:49.872364 2020] [ssl:warn] [pid 12440:tid 156] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 11 18:16:49.919239 2020] [ssl:warn] [pid 12440:tid 156] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Fri Dec 11 18:16:50.211487 2020] [mpm_winnt:notice] [pid 12440:tid 156] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Fri Dec 11 18:16:50.211487 2020] [mpm_winnt:notice] [pid 12440:tid 156] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Fri Dec 11 18:16:50.211487 2020] [core:notice] [pid 12440:tid 156] AH00094: Command line: 'apache\\bin\\httpd.exe -d F:/MoodleWindowsInstaller-latest-38/server/apache -f conf\\httpd.conf'
+[Fri Dec 11 18:16:50.229410 2020] [mpm_winnt:notice] [pid 12440:tid 156] AH00418: Parent: Created child process 14712
+Apache server shutdown initiated...
+sl:warn] [pid 14712:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 11 18:16:51.086559 2020] [ssl:warn] [pid 14712:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Fri Dec 11 18:16:51.131997 2020] [mpm_winnt:notice] [pid 14712:tid 620] AH00354: Child: Starting 150 worker threads.
+[Fri Dec 11 18:20:15.345301 2020] [mpm_winnt:notice] [pid 12440:tid 156] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Dec 11 18:20:43.012877 2020] [ssl:warn] [pid 21444:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 11 18:20:43.053238 2020] [core:warn] [pid 21444:tid 576] AH00098: pid file F:/MoodleWindowsInstaller-latest-38/server/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Dec 11 18:20:43.056230 2020] [ssl:warn] [pid 21444:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Fri Dec 11 18:20:43.084156 2020] [mpm_winnt:notice] [pid 21444:tid 576] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Fri Dec 11 18:20:43.084156 2020] [mpm_winnt:notice] [pid 21444:tid 576] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Fri Dec 11 18:20:43.084156 2020] [core:notice] [pid 21444:tid 576] AH00094: Command line: 'apache\\bin\\httpd.exe -d F:/MoodleWindowsInstaller-latest-38/server/apache -f conf\\httpd.conf'
+[Fri Dec 11 18:20:43.097121 2020] [mpm_winnt:notice] [pid 21444:tid 576] AH00418: Parent: Created child process 6024
+[Fri Dec 11 18:20:43.844265 2020] [ssl:warn] [pid 6024:tid 580] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 11 18:20:43.953832 2020] [ssl:warn] [pid 6024:tid 580] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Fri Dec 11 18:20:43.989736 2020] [mpm_winnt:notice] [pid 6024:tid 580] AH00354: Child: Starting 150 worker threads.
+[Fri Dec 11 18:20:47.507334 2020] [mpm_winnt:notice] [pid 14712:tid 620] AH00362: Child: Waiting 270 more seconds for 1 worker threads to finish.
+[Fri Dec 11 18:20:57.712246 2020] [mpm_winnt:notice] [pid 14712:tid 620] AH00364: Child: All worker threads have exited.
+[Fri Dec 11 18:21:08.971680 2020] [mpm_winnt:notice] [pid 21444:tid 576] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Dec 11 18:21:10.975330 2020] [mpm_winnt:notice] [pid 6024:tid 580] AH00364: Child: All worker threads have exited.
+[Fri Dec 11 18:21:11.003252 2020] [mpm_winnt:notice] [pid 21444:tid 576] AH00430: Parent: Child process 6024 exited successfully.
+[Fri Dec 11 18:21:24.131161 2020] [ssl:warn] [pid 2652:tid 564] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 11 18:21:24.172051 2020] [ssl:warn] [pid 2652:tid 564] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Fri Dec 11 18:21:24.202968 2020] [mpm_winnt:notice] [pid 2652:tid 564] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Fri Dec 11 18:21:24.202968 2020] [mpm_winnt:notice] [pid 2652:tid 564] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Fri Dec 11 18:21:24.202968 2020] [core:notice] [pid 2652:tid 564] AH00094: Command line: 'apache\\bin\\httpd.exe -d F:/MoodleWindowsInstaller-latest-38/server/apache -f conf\\httpd.conf'
+[Fri Dec 11 18:21:24.212636 2020] [mpm_winnt:notice] [pid 2652:tid 564] AH00418: Parent: Created child process 19940
+Apache server shutdown initiated...
+sl:warn] [pid 19940:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 11 18:21:24.866196 2020] [ssl:warn] [pid 19940:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Fri Dec 11 18:21:24.905095 2020] [mpm_winnt:notice] [pid 19940:tid 468] AH00354: Child: Starting 150 worker threads.
+[Fri Dec 11 18:21:33.208201 2020] [mpm_winnt:notice] [pid 2652:tid 564] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Dec 11 18:21:35.210847 2020] [mpm_winnt:notice] [pid 19940:tid 468] AH00364: Child: All worker threads have exited.
+[Fri Dec 11 18:21:35.237774 2020] [mpm_winnt:notice] [pid 2652:tid 564] AH00430: Parent: Child process 19940 exited successfully.
+[Fri Dec 11 18:40:50.168889 2020] [ssl:warn] [pid 20000:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 11 18:40:50.217142 2020] [ssl:warn] [pid 20000:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Fri Dec 11 18:40:51.179572 2020] [mpm_winnt:notice] [pid 20000:tid 552] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Fri Dec 11 18:40:51.179572 2020] [mpm_winnt:notice] [pid 20000:tid 552] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Fri Dec 11 18:40:51.179572 2020] [core:notice] [pid 20000:tid 552] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/panap/Downloads/MoodleWindowsInstaller-latest-38/server/apache -f conf\\httpd.conf'
+[Fri Dec 11 18:40:51.187636 2020] [mpm_winnt:notice] [pid 20000:tid 552] AH00418: Parent: Created child process 15096
+[Fri Dec 11 18:40:51.650311 2020] [ssl:warn] [pid 15096:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 11 18:40:51.689207 2020] [ssl:warn] [pid 15096:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Fri Dec 11 18:40:51.720156 2020] [mpm_winnt:notice] [pid 15096:tid 556] AH00354: Child: Starting 150 worker threads.
+[Sat Dec 12 00:09:57.740676 2020] [php7:notice] [pid 15096:tid 1828] [client ::1:54549] [client 0:0:0:0:0:0:0:1]  http://localhost  Invalid Login Token:  panapost  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36, referer: http://localhost/login/index.php
+[Sat Dec 12 18:18:26.749639 2020] [mpm_winnt:notice] [pid 20000:tid 552] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Dec 12 18:18:56.751681 2020] [mpm_winnt:notice] [pid 20000:tid 552] AH00431: Parent: Forcing termination of child process 15096
+[Tue Dec 15 22:32:45.706292 2020] [ssl:warn] [pid 23276:tid 612] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 15 22:32:45.755300 2020] [ssl:warn] [pid 23276:tid 612] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Tue Dec 15 22:32:46.385183 2020] [mpm_winnt:notice] [pid 23276:tid 612] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Tue Dec 15 22:32:46.385183 2020] [mpm_winnt:notice] [pid 23276:tid 612] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Tue Dec 15 22:32:46.385183 2020] [core:notice] [pid 23276:tid 612] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/panap/Downloads/MoodleWindowsInstaller-latest-38/server/apache -f conf\\httpd.conf'
+[Tue Dec 15 22:32:46.393152 2020] [mpm_winnt:notice] [pid 23276:tid 612] AH00418: Parent: Created child process 16780
+Apache server shutdown initiated...
+sl:warn] [pid 16780:tid 572] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 15 22:32:47.063707 2020] [ssl:warn] [pid 16780:tid 572] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Tue Dec 15 22:32:47.098616 2020] [mpm_winnt:notice] [pid 16780:tid 572] AH00354: Child: Starting 150 worker threads.
+[Wed Dec 16 00:59:01.603303 2020] [mpm_winnt:notice] [pid 23276:tid 612] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Dec 16 00:59:03.606149 2020] [mpm_winnt:notice] [pid 16780:tid 572] AH00364: Child: All worker threads have exited.
+[Wed Dec 16 00:59:03.657960 2020] [mpm_winnt:notice] [pid 23276:tid 612] AH00430: Parent: Child process 16780 exited successfully.
+[Thu Dec 17 10:40:37.907883 2020] [ssl:warn] [pid 17092:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 17 10:40:37.974868 2020] [ssl:warn] [pid 17092:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Thu Dec 17 10:40:38.360487 2020] [mpm_winnt:notice] [pid 17092:tid 576] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Thu Dec 17 10:40:38.360487 2020] [mpm_winnt:notice] [pid 17092:tid 576] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Thu Dec 17 10:40:38.360487 2020] [core:notice] [pid 17092:tid 576] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/panap/Downloads/MoodleWindowsInstaller-latest-38/server/apache -f conf\\httpd.conf'
+[Thu Dec 17 10:40:38.369149 2020] [mpm_winnt:notice] [pid 17092:tid 576] AH00418: Parent: Created child process 9080
+Apache server shutdown initiated...
+sl:warn] [pid 9080:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 17 10:40:39.082228 2020] [ssl:warn] [pid 9080:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Thu Dec 17 10:40:39.137399 2020] [mpm_winnt:notice] [pid 9080:tid 556] AH00354: Child: Starting 150 worker threads.
+[Thu Dec 17 21:11:08.390595 2020] [mpm_winnt:notice] [pid 17092:tid 576] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Dec 17 21:11:10.397663 2020] [mpm_winnt:notice] [pid 9080:tid 556] AH00364: Child: All worker threads have exited.
+[Thu Dec 17 21:11:10.466479 2020] [mpm_winnt:notice] [pid 17092:tid 576] AH00430: Parent: Child process 9080 exited successfully.
+[Fri Dec 18 11:52:40.163123 2020] [ssl:warn] [pid 19960:tid 560] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 18 11:52:40.208872 2020] [ssl:warn] [pid 19960:tid 560] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Fri Dec 18 11:52:40.768775 2020] [mpm_winnt:notice] [pid 19960:tid 560] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Fri Dec 18 11:52:40.768775 2020] [mpm_winnt:notice] [pid 19960:tid 560] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Fri Dec 18 11:52:40.768775 2020] [core:notice] [pid 19960:tid 560] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/panap/Downloads/MoodleWindowsInstaller-latest-38/server/apache -f conf\\httpd.conf'
+[Fri Dec 18 11:52:40.776755 2020] [mpm_winnt:notice] [pid 19960:tid 560] AH00418: Parent: Created child process 15996
+Apache server shutdown initiated...
+sl:warn] [pid 15996:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 18 11:52:41.324326 2020] [ssl:warn] [pid 15996:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Fri Dec 18 11:52:41.354247 2020] [mpm_winnt:notice] [pid 15996:tid 556] AH00354: Child: Starting 150 worker threads.
+[Sat Dec 19 11:08:28.736830 2020] [mpm_winnt:notice] [pid 19960:tid 560] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Dec 19 11:08:30.741367 2020] [mpm_winnt:notice] [pid 15996:tid 556] AH00364: Child: All worker threads have exited.
+[Sat Dec 19 11:08:30.844800 2020] [mpm_winnt:notice] [pid 19960:tid 560] AH00430: Parent: Child process 15996 exited successfully.
